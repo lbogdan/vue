@@ -1,0 +1,9 @@
+{
+  "packages": ["./", "./packages/vue-template-compiler"],
+  "sandboxes": [
+    {
+      "id": "github/lbogdan/cs-integration/tree/master/vue",
+      "name": "Test"
+    }
+  ]
+}
