@@ -31,6 +31,10 @@ function build (builds) {
   const next = () => {
     buildEntry(builds[built]).then(() => {
       built++
+      if (built === 2) {
+        console.log('CI: simulated build error')
+        process.exit(1)
+      }
       if (built < total) {
         next()
       }
