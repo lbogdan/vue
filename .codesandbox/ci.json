@@ -1,4 +1,5 @@
 {
   "packages": ["./", "./packages/vue-template-compiler"],
-  "sandboxes": ["github/lbogdan/cs-integration/tree/master/vue"]
+  "sandboxes": ["github/lbogdan/cs-integration/tree/master/vue"],
+  "node": 12
 }
